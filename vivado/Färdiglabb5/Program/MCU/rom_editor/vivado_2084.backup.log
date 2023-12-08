@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed Dec 06 11:44:45 2023
+# Process ID: 2084
+# Current directory: C:/Users/lu1582je-s/Project/Program/MCU/rom_editor
+# Command line: vivado.exe -mode batch -source C:\Users\lu1582je-s\Project\project_1\project_1.runs\impl_1\configure_mcu.tcl
+# Log file: C:/Users/lu1582je-s/Project/Program/MCU/rom_editor/vivado.log
+# Journal file: C:/Users/lu1582je-s/Project/Program/MCU/rom_editor\vivado.jou
+#-----------------------------------------------------------
+source {C:\Users\lu1582je-s\Project\project_1\project_1.runs\impl_1\configure_mcu.tcl}
+# cd {C:\Users\lu1582je-s\Project\project_1\project_1.runs\impl_1}
+# exec data2MEM -bd {rom.mem} -bm {mcu.bmm} -bt {mcu.bit} -o b {download.bit}
+# open_hw
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.0 available at C:/Xilinx/Vivado/2016.1/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+# connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+# open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274675217A
+# set_property PROGRAM.FILE {download.bit} [lindex [get_hw_devices] 0]
+# program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+# close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210274675217A
+# disconnect_hw_server
+# close_hw
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 06 11:44:53 2023...

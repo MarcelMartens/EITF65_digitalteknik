@@ -1,0 +1,20 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto b6bd21ecd4264224abc219e09d7d35c3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot stop_watch_tb_behav xil_defaultlib.stop_watch_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture edge_det_arch of entity xil_defaultlib.edge_det [edge_det_default]
+Compiling architecture fsm_arch of entity xil_defaultlib.FSM [fsm_default]
+Compiling architecture counter_arch of entity xil_defaultlib.fast_counter [fast_counter_default]
+Compiling architecture sub10_arch of entity xil_defaultlib.sub10 [sub10_default]
+Compiling architecture nbcd_structural of entity xil_defaultlib.nbcd [nbcd_default]
+Compiling architecture stop_watch_structal of entity xil_defaultlib.stop_watch_sim [stop_watch_sim_default]
+Compiling architecture stop_watch_tb_arch of entity xil_defaultlib.stop_watch_tb
+Built simulation snapshot stop_watch_tb_behav

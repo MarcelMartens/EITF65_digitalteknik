@@ -1,0 +1,9 @@
+
+
+ADDRESS_SPACE instr_mem RAMB16 [0x00000000:0x000007FF]
+    BUS_BLOCK
+    
+        instr_mem_i/RAMB18E1_i [15:0] PLACED = X3Y25;
+        
+    END_BUS_BLOCK;
+END_ADDRESS_SPACE;

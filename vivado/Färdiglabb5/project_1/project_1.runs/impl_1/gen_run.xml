@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1701856859">
+  <File Type="OPT-DCP" Name="mcu_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="mcu_route_status.pb"/>
+  <File Type="PA-TCL" Name="mcu.tcl"/>
+  <File Type="RDI-RDI" Name="mcu.vdi"/>
+  <File Type="PWROPT-DRC" Name="mcu_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="mcu_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="mcu_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="mcu_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="mcu_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="mcu.hwdef"/>
+  <File Type="OPT-TIMING" Name="mcu_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="mcu_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="mcu_placed.dcp"/>
+  <File Type="PLACE-IO" Name="mcu_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="mcu_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mcu_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mcu_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mcu_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mcu_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mcu_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="mcu_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mcu_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mcu_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="mcu_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="mcu_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="mcu_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="mcu_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mcu_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="mcu_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mcu_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mcu_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="mcu.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mcu_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="mcu_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="mcu_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="mcu_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="mcu_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mcu_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mcu_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mcu_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="mcu_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="mcu_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mcu_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mcu_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mcu_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mcu_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mcu_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="mcu.bin"/>
+  <File Type="BITSTR-MSK" Name="mcu.msk"/>
+  <File Type="BITSTR-RBT" Name="mcu.rbt"/>
+  <File Type="BITSTR-NKY" Name="mcu.nky"/>
+  <File Type="BITSTR-BMM" Name="mcu_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="mcu.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="mcu.sysdef"/>
+  <File Type="BG-BGN" Name="mcu.bgn"/>
+  <File Type="BG-DRC" Name="mcu.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/komponenter/SR4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/komponenter/SR4.vhd"/>
+        <Attr Name="ImportTime" Val="1479110907"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/komponenter/MUX2x8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/komponenter/MUX2x8.vhd"/>
+        <Attr Name="ImportTime" Val="1479110901"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/cpu_pkg.vhd"/>
+        <Attr Name="ImportTime" Val="1479110850"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/komponenter/REG8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/komponenter/REG8.vhd"/>
+        <Attr Name="ImportTime" Val="1479110890"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/stack.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/stack.vhd"/>
+        <Attr Name="ImportTime" Val="1479111970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/komponenter/REG6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/komponenter/REG6.vhd"/>
+        <Attr Name="ImportTime" Val="1479110893"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/komponenter/MUX3x6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/komponenter/MUX3x6.vhd"/>
+        <Attr Name="ImportTime" Val="1479110898"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/registerblock.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/registerblock.vhd"/>
+        <Attr Name="ImportTime" Val="1479110869"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/komponenter/ALU8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/komponenter/ALU8.vhd"/>
+        <Attr Name="ImportTime" Val="1479110904"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/misc/sub10.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/misc/sub10.vhd"/>
+        <Attr Name="ImportTime" Val="1479110926"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/adressvaljare.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/adressvaljare.vhd"/>
+        <Attr Name="ImportTime" Val="1479113071"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/instruktionsavkodare.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/instruktionsavkodare.vhd"/>
+        <Attr Name="ImportTime" Val="1479110842"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/berakningsenhet.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/berakningsenhet.vhd"/>
+        <Attr Name="ImportTime" Val="1479110857"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/misc/nbcd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/misc/nbcd.vhd"/>
+        <Attr Name="ImportTime" Val="1479135946"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/misc/BCD_driver.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/misc/BCD_driver.vhd"/>
+        <Attr Name="ImportTime" Val="1479110923"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/misc/debouncer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/misc/debouncer.vhd"/>
+        <Attr Name="ImportTime" Val="1479137495"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/misc/edge_det.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/misc/edge_det.vhd"/>
+        <Attr Name="ImportTime" Val="1479110935"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/misc/clk_divider.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/misc/clk_divider.vhd"/>
+        <Attr Name="ImportTime" Val="1479137408"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/debugmodul.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/debugmodul.vhd"/>
+        <Attr Name="ImportTime" Val="1479110846"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/minne.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/minne.vhd"/>
+        <Attr Name="ImportTime" Val="1479110873"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/IOblock.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/IOblock.vhd"/>
+        <Attr Name="ImportTime" Val="1479110824"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/cpu.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/cpu.vhd"/>
+        <Attr Name="ImportTime" Val="1479120039"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/misc/reset_block.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/misc/reset_block.vhd"/>
+        <Attr Name="ImportTime" Val="1479133657"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/klockblock.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/klockblock.vhd"/>
+        <Attr Name="ImportTime" Val="1479137517"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCU/labbfiler/mcu.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/labbfiler/mcu.vhd"/>
+        <Attr Name="ImportTime" Val="1479110875"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mcu"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/misc/Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Program/MCU/misc/Nexys4_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1701695868"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

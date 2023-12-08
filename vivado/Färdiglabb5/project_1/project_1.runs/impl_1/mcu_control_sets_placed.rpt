@@ -1,0 +1,65 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Wed Dec 06 11:01:27 2023
+| Host         : fox-17 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file mcu_control_sets_placed.rpt
+| Design       : mcu
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    27 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               9 |            6 |
+| No           | No                    | Yes                    |               1 |            1 |
+| No           | Yes                   | No                     |              67 |           24 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              48 |           15 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+-----------------------+-------------------------------------------+------------------+----------------+
+|      Clock Signal     |     Enable Signal     |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
++-----------------------+-----------------------+-------------------------------------------+------------------+----------------+
+|  clk_100MHz_IBUF_BUFG |                       | klockblock_i/edge_det_i/reg_q_i_2_n_0     |                1 |              1 |
+|  clk_sys_BUFG         |                       |                                           |                1 |              2 |
+|  clk_100MHz_IBUF_BUFG |                       |                                           |                5 |              7 |
+|  clk_100MHz_IBUF_BUFG |                       | klockblock_i/debouncer_i/count_in0_in[18] |                2 |              7 |
+|  clk_sys_BUFG         | minne_i/E[0]          | reset_block_i/SR[0]                       |                3 |              8 |
+|  clk_sys_BUFG         | minne_i/Q_reg[0][0]   | reset_block_i/SR[0]                       |                2 |              8 |
+|  clk_sys_BUFG         | minne_i/Q_reg[7]_2[0] | reset_block_i/SR[0]                       |                2 |              8 |
+|  clk_100MHz_IBUF_BUFG |                       | klockblock_i/debouncer_i/count_in0_in[5]  |                5 |             14 |
+|  clk_sys_BUFG         |                       | reset_block_i/SR[0]                       |                8 |             14 |
+|  clk_100MHz_IBUF_BUFG |                       | klockblock_i/clk_divider_i/clk_int        |                4 |             15 |
+|  clk_100MHz_IBUF_BUFG |                       | debugmodul_i/BCD_driver_i/cnt[17]_i_1_n_0 |                5 |             17 |
+|  clk_sys_BUFG         | minne_i/Q_reg[3]_4[0] | reset_block_i/SR[0]                       |                8 |             24 |
++-----------------------+-----------------------+-------------------------------------------+------------------+----------------+
+
+

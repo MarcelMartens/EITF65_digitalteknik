@@ -1,0 +1,16 @@
+0.2
+2016.1
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sim_1/imports/tb/cpu_tb.vhd,1701695963,vhdl,C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/komponenter/ALU8.vhd,1701695956,vhdl,,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/komponenter/MUX2x8.vhd,1701695957,vhdl,,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/komponenter/MUX3x6.vhd,1701695958,vhdl,,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/komponenter/REG6.vhd,1701695958,vhdl,,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/komponenter/REG8.vhd,1701695958,vhdl,,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/komponenter/SR4.vhd,1701695956,vhdl,,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/adressvaljare.vhd,1701695960,vhdl,C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/berakningsenhet.vhd,1701695960,vhdl,C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu.vhd,1701698120,vhdl,C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd,1701695959,vhdl,,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/instruktionsavkodare.vhd,1701695959,vhdl,C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/registerblock.vhd,1701695960,vhdl,C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd,,,,,,,,
+C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/stack.vhd,1701695960,vhdl,C:/Users/lu1582je-s/Project/project_1/project_1.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd,,,,,,,,

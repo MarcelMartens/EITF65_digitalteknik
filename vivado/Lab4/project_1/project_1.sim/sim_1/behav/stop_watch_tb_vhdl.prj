@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../labb_4.srcs/sources_1/imports/vhdl/stop_watch_package.vhd"
+vhdl xil_defaultlib  "../../../labb_4.srcs/sources_1/imports/vhdl/fsm.vhd"
+vhdl xil_defaultlib  "../../../labb_4.srcs/sources_1/imports/vhdl/nbcd.vhd"
+vhdl xil_defaultlib  "../../../labb_4.srcs/sources_1/imports/vhdl/edge_det.vhd"
+vhdl xil_defaultlib  "../../../labb_4.srcs/sim_1/imports/testbench/fast_counter.vhd"
+vhdl xil_defaultlib  "../../../labb_4.srcs/sim_1/imports/testbench/stop_watch_sim.vhd"
+vhdl xil_defaultlib  "../../../labb_4.srcs/sim_1/imports/testbench/stop_watch_tb.vhd"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Nov 16 11:32:59 2023
+# Process ID: 11804
+# Current directory: C:/Users/ma8541ma-s/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2032 C:\Users\ma8541ma-s\project_1\project_1.xpr
+# Log file: C:/Users/ma8541ma-s/project_1/vivado.log
+# Journal file: C:/Users/ma8541ma-s/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ma8541ma-s/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/ma8541ma-s/project_1/.Xil/Vivado-11804-fox-4/dcp/stop_watch.xdc]
+Finished Parsing XDC File [C:/Users/ma8541ma-s/project_1/.Xil/Vivado-11804-fox-4/dcp/stop_watch.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1018.582 ; gain = 0.016
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1018.582 ; gain = 0.016
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1135.793 ; gain = 325.824
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/ma8541ma-s/project_1/project_1.srcs/constrs_1/imports/vhdl/top.xdc]
+Finished Parsing XDC File [C:/Users/ma8541ma-s/project_1/project_1.srcs/constrs_1/imports/vhdl/top.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 16 11:34:02 2023...
